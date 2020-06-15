@@ -1,6 +1,21 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.home_video {
+  width: 100vw;
+ height: 100vh;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ object-fit: cover;
+ top: 0;
+ z-index: -2;
+}
+.home-video-wrapper {
+  height: 100vh;
+  display: flex;
+  }
+  
 
 .sidenav {
   height: 100%;
@@ -29,8 +44,26 @@
 
 body {
   background-color: lightskyblue;
+  font-family:'bebas neue',serif;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.welcome{
+  font-size: 55px;
+  margin-right:500px;
+  margin-top: 200px;
+  color:whitesmoke;
+}
+h2{
+  text-align: center;
+}
+h2 span{
+color:gold;
+}
+.pro{
+  font-size: 100px;
+  color:whitesmoke;
 }

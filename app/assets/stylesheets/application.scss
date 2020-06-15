@@ -97,8 +97,8 @@ color:gold;
   color:whitesmoke;
 }
 
-@media screen and (max-height: 450px) {
-  .topnav a {font-size: 30px;}
+@media screen and (max-height: 700px) and (min-height: 300px) {
+  .topnav a {font-size: 56px;}
   
 
 

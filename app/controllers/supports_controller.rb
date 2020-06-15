@@ -1,4 +1,4 @@
-class SupportsController 
+class SupportsController < ApplicationController
 
   def index 
 

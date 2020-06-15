@@ -10,6 +10,16 @@
   </head>
 
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/pages#index">Home</a>
+      <a href="/tools#index">PROtester tools</a>
+      <a href="/safeties#index">How to be safe</a>
+      <a href="/donations#index">Donate to the cause</a>
+      <a href="/supports#index">Resources</a>
+    </div>
+    
+    <button class="btn btn-success" onclick="openNav()">Menu</button>
     <%= yield %>
   </body>
 </html>

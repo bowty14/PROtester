@@ -1,3 +1,11 @@
 <div class="container">
   <h1 id="main" class="text">From here you can find black owned bussinesses in your communnity to go out and support.</h1>
+  <ul>
+  <% @businesses.each do |business| %>
+  <li><%= link_to business['name'], support_path(business['id']) %></li>
+  <% end  %>
+  </ul>
 </div>
+
+
+

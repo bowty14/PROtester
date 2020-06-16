@@ -89,36 +89,21 @@ h2{
   text-align: center;
   color: white;
   font-size: 50px;
+  margin-top:200px;
 }
 h2 span{
 color:gold;
 }
 
-.pro{
-  font-size: 100px;
-  color:whitesmoke;
-}
-
-@media screen and (max-height: 1200px) and (min-height: 480px) {
-  .topnav a {font-size: 56px;}
-  
-
-
-  .welcome {font-size: 18px;
-          margin-top: 10%;
-          transition: margin-left .5s;
-  }
-
-}
 
 .fadeOut{
   visibility: hidden;
   opacity: 0; 
- -webkit-transition: all 1s ease-out;
-       -moz-transition: all 1s ease-out;
-        -ms-transition: all 1s ease-out;
-         -o-transition: all 1s ease-out;
-            transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   transform: translate(0,-50px);
   -webkit-transform: translate(0,-50px);
   -o-transform: translate(0,-50px); 
@@ -132,4 +117,14 @@ color:gold;
 .logo1{
   width:300px;
   height:300px;
+}
+
+@media screen and (max-height: 900px) and (min-height: 480px) {
+  .topnav a {font-size: 100px;}
+
+  .welcome {font-size: 18px;
+          margin-top: 10%;
+          transition: margin-left .5s;
+  }
+
 }

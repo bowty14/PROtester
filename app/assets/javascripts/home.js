@@ -17,3 +17,5 @@ function _changeText() {
 }, 1000);
 }
 setInterval("_changeText()", 1800);
+
+

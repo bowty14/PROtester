@@ -191,16 +191,28 @@ footer {
 .mapsApi{
   text-align: center;
   display: block;
+  margin-bottom: 7%;
 }
 
 .no-bullet{
   list-style-type: none;
   font-size: x-large;
-  margin: 7%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding: 0;
+  text-align: center;
+  
 }
 
 a{
   color: black;
+}
+
+li{
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 
@@ -331,6 +343,18 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.business-header {
+  text-align: center;
+  font-size: 105px;
+  color: black;
+}
+
+.business-category {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
 
 
 

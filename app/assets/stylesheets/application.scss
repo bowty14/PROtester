@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
 .home_video {
   width: 100vw;
  height: 100vh;
@@ -64,16 +66,13 @@
   background-color: #f5cb5c;
   color: black;
 }
-.text{
+
+ #main{
   text-align: right;
   padding-right: 20%;
   padding-top:10px;
   font-size: 100px;
-  
-}
-#main{
-  transition: margin-left .5s;
-}
+} 
 #openbtn {
   position: absolute;
   top: 10px;
@@ -138,56 +137,36 @@ footer {
   height:300px;
 }
 .tool{
+  left:80px;
+  margin-top:-300px;
+  right: 10%;
   width:550px;
-  height:375px;
-  margin-left:100px;
-  margin-top:-250px;
+  height:290px;
 }
 
 .toolkit{
   background-color:#4F5D75;
 }
+#img-c {
+  margin-top: 60%;
+}
 .sign{
-  margin-left:600px;
+  margin-left:100px;
   margin-top:60%;
 }
-#col1 {
-  position: fixed;
-  top:2px; 
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  float: left;
-}
- #col2 {
-  margin-right: 10%;
-} 
-/* #col3 {
-  position: fixed;
-  top:2px; 
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  float: left;
-}
-#col4 {
-  position: fixed;
-  top:2px; 
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  float: ;
-} */ 
 
-#col1 {
-  text-align: center;
-  position: fixed;
-  top: 30%;
-  border: solid;
-  border-color: red;
+.container2{
+  margin-left:50%;
+  margin-bottom:20%;
+  width:700px;
+  height:300px;
 }
 
-
+.item, .image{
+  overflow: hidden;
+  width:700px;
+  height:500px;
+}
 .mapsApi{
   text-align: center;
   display: block;
@@ -316,6 +295,7 @@ a{
 
 img.demo {
   opacity: 0.6;
+
 }
 
 .active,
@@ -350,6 +330,17 @@ img.hover-shadow {
           margin-top: 10%;
           transition: margin-left .5s;
   }
+  .tool{
+  
+  margin-top:-175px;
+  left:0px;
+  right: 10%;
+  width:300px;
+  height:290px;
+}
+#main {
+  font-size: 50px;
+}
 
 }
 

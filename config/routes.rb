@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   root to: 'pages#index'
-
-  resources :pages
-  resources :safeties
-  resources :tools
-  resources :donations
+  get '/pages' => 'pages#index'
+  get '/safeties' => 'safeties#index'
+  get '/tools' => 'tools#index'
+  get '/donations' => 'donations#index'
   resources :supports 
 end

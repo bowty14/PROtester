@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   resources :safeties
   resources :tools
   resources :donations
-  resources :supports 
+  resources :supports
 end

@@ -151,6 +151,20 @@ footer {
   border-color: red;
 }
 
+.mapsApi{
+  text-align: center;
+  display: block;
+}
+
+.businessDetail{
+  list-style-type: none;
+  font-size: x-large;
+}
+
+a{
+  color: black;
+}
+
 
 @media screen and (max-width: 900px) and (min-width: 480px) {
   .topnav a {font-size: 100px;}

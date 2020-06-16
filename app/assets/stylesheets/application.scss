@@ -66,8 +66,9 @@
 }
 .text{
   text-align: right;
-  padding-right: 10%;
-  font-size: 70px;
+  padding-right: 20%;
+  padding-top:10px;
+  font-size: 100px;
   
 }
 #main{
@@ -84,16 +85,10 @@ body {
   font-family:'bebas neue',serif;
 }
 
-#staysSame {
- color: white;
- padding: 0;
-}
-
 #changer{
   color:gold;
   padding: 0;
 }
-
 
 #footer{
   position:fixed;
@@ -101,7 +96,7 @@ body {
   bottom:0;
   width:100%;
   color:black;
-  background-color:gold;
+  background-color:#f5cb5c;
 }
 
 
@@ -140,8 +135,49 @@ footer {
 }
 #tools{
   background-color: rgb(225, 225, 225);
-  height:200px;
+  height:300px;
 }
+.tool{
+  width:550px;
+  height:375px;
+  margin-left:100px;
+  margin-top:-250px;
+}
+
+.toolkit{
+  background-color:#4F5D75;
+}
+.sign{
+  margin-left:600px;
+  margin-top:60%;
+}
+#col1 {
+  position: fixed;
+  top:2px; 
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  float: left;
+}
+ #col2 {
+  margin-right: 10%;
+} 
+/* #col3 {
+  position: fixed;
+  top:2px; 
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  float: left;
+}
+#col4 {
+  position: fixed;
+  top:2px; 
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  float: ;
+} */ 
 
 #col1 {
   text-align: center;
@@ -150,6 +186,7 @@ footer {
   border: solid;
   border-color: red;
 }
+
 // MODAL IMAGES CSS
 .row > .column {
   padding: 0 8px;
@@ -276,6 +313,7 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 
 @media screen and (max-width: 900px) and (min-width: 480px) {

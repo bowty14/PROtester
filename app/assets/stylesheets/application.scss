@@ -78,23 +78,23 @@ body {
 
 }
 
-.welcome{
-  font-size: 55px;
-  margin-right:500px;
-  margin-top: 200px;
-  margin-left: 5%;
-  color:whitesmoke;
+#staysSame {
+ color: white;
+ padding: 0;
 }
+
+#changer{
+  color:gold;
+  padding: 0;
+}
+
+
 h2{
   text-align: center;
   color: white;
   font-size: 50px;
   margin-top:200px;
 }
-h2 span{
-color:gold;
-}
-
 
 .fadeOut{
   visibility: hidden;
@@ -119,8 +119,17 @@ color:gold;
   height:300px;
 }
 
-@media screen and (max-height: 900px) and (min-height: 480px) {
+@media screen and (max-width: 900px) and (min-width: 480px) {
   .topnav a {font-size: 100px;}
+
+  #staysSame{
+    color:white;
+    font-size: 65px;
+  }
+
+  h2 span{
+    font-size: 65px;
+    }
 
   .welcome {font-size: 18px;
           margin-top: 10%;

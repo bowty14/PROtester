@@ -39,6 +39,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'faker'
+gem 'httparty'
 
 
 group :development, :test do
@@ -47,6 +48,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'
+  gem 'dotenv-rails'
 end
 
 group :test do

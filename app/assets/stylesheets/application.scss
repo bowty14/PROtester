@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 
-
+// styling for video, found on pages#index
 .home_video {
   width: 100vw;
  height: 100vh;
@@ -18,20 +18,29 @@
   display: flex;
   }
   
+// styling for application layout
 
+body {
+  background-color: lightskyblue;
+  font-family:'bebas neue',serif;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
 }
-
-
+#home_link {
+  background-color: #f5cb5c;
+  color: black;
+} 
+.logo{
+  width:115px;
+  height:100px;
+}
 .topnav #myLinks {
   display: none;
   text-align: center;
 }
-
-
 .topnav a {
   color: white;
   padding: 14px 16px;
@@ -39,8 +48,6 @@
   font-size: 20px;
   display: block;
 }
-
-
 .topnav a.icon {
   background: black;
   display: block;
@@ -48,47 +55,10 @@
   right: 0;
   top: 0;
 }
-
-
- .link:hover {
+ .link_tab:hover {
   background-color: #ddd;
   color: black;
 }
-
-#linkTag {
-  position: fixed;
-  left: 49.5%;
-  top: 5%;
-  color:black;
-}
-
-.active {
-  background-color: #f5cb5c;
-  color: black;
-}
-
- #main{
-  text-align: right;
-  padding-right: 20%;
-  padding-top:10px;
-  font-size: 100px;
-} 
-#openbtn {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-body {
-  background-color: lightskyblue;
-  font-family:'bebas neue',serif;
-}
-
-#changer{
-  color:gold;
-  padding: 0;
-}
-
 #footer{
   position:fixed;
   left:0;
@@ -97,15 +67,18 @@ body {
   color:black;
   background-color:#f5cb5c;
 }
-
-
-h2{
+// styling for pages#index
+#blink_text{
   text-align: center;
   color: white;
   font-size: 50px;
   margin-top:200px;
 }
-
+#changer{
+  color:gold;
+  padding: 0;
+}
+// styling for home.js text fade effect for words on pages#index
 .fadeOut{
   visibility: hidden;
   opacity: 0; 
@@ -119,60 +92,65 @@ h2{
   -o-transform: translate(0,-50px); 
   -moz-transform: translate(0,-50px);
 }
-
-.logo{
-  width:115px;
-  height:100px;
-}
-.logo1{
-  width:300px;
-  height:300px;
-}
-
-footer {
-  color:red;
-}
-#tools{
-  background-color: rgb(225, 225, 225);
-  height:300px;
-}
-.tool{
-  left:80px;
-  margin-top:-300px;
-  right: 10%;
-  width:550px;
-  height:290px;
-}
-
+// styling for tools#index
 .toolkit{
   background-color:#4F5D75;
 }
-#img-c {
-  margin-top: 60%;
+#tools{
+  background-color: rgb(225, 225, 225);
+  height:200px;
+}
+#tools_head{
+  text-align: right;
+  padding-right: 20%;
+  padding-top:10px;
+  font-size: 70px;
+} 
+.container2{
+  margin-top: -18%;
+  margin-left:.5%;
+  margin-bottom:20%;
+  width:700px;
+  height:300px;
 }
 .sign{
   margin-left:100px;
   margin-top:60%;
 }
-
-.container2{
-  margin-left:50%;
-  margin-bottom:20%;
-  width:700px;
-  height:300px;
-}
-
 .item, .image{
   overflow: hidden;
   width:700px;
   height:500px;
 }
+// styling for supports#index
+
 .mapsApi{
   text-align: center;
   display: block;
   margin-bottom: 7%;
 }
 
+
+a{
+  color: black;
+}
+li{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.business-header {
+  text-align: center;
+  font-size: 105px;
+  color: black;
+}
+// styling for supports#show
+.business-category {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: black;
+}
+// mutual styling in supports#index & #show
 .no-bullet{
   list-style-type: none;
   font-size: x-large;
@@ -182,18 +160,7 @@ footer {
   margin-bottom: 7%;
   padding: 0;
   text-align: center;
-  
 }
-
-a{
-  color: black;
-}
-
-li{
-  margin-top: 4%;
-  margin-bottom: 4%;
-}
-
 
 // MODAL IMAGES CSS
 .row > .column {
@@ -323,47 +290,32 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.business-header {
-  text-align: center;
-  font-size: 105px;
-  color: black;
-}
-
-.business-category {
-  text-align: center;
-  font-size: 50px;
-  font-weight: bolder;
-  color: black;
-}
 
 
-
-@media screen and (max-width: 900px) and (min-width: 480px) {
-  .topnav a {font-size: 100px;}
-
-  #staysSame{
-    color:white;
+// styling for mobile view
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  // styling for application layout
+  .topnav a {
+    font-size: 70px;
+  }
+// styling for pages#index
+  #blink_text, #changer{
     font-size: 65px;
   }
 
-  h2 span{
-    font-size: 65px;
-    }
-
-  .welcome {font-size: 18px;
-          margin-top: 10%;
-          transition: margin-left .5s;
-  }
-  .tool{
-  
-  margin-top:-175px;
-  left:0px;
-  right: 10%;
-  width:300px;
-  height:290px;
-}
-#main {
+// styling for tools#index
+#tools_head{
+  text-align: left;
+  padding-right: 20%;
+  padding-top:10px;
   font-size: 50px;
+} 
+.container2{
+  margin-top: -18%;
+  margin-left:.5%;
+  margin-bottom:20%;
+  width:400px;
+  height:100px;
 }
 
 }

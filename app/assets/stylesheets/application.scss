@@ -21,7 +21,7 @@
 // styling for application layout
 
 body {
-  background-color: lightskyblue;
+  background-color:#4F5D75;
   font-family:'bebas neue',serif;
   text-decoration: none;
 }
@@ -179,27 +179,45 @@ body {
 .mapsApi{
   display: block;
   margin-bottom: 7%;
+  text-align: center;
 }
-
 
 a{
-  color: black;
+  color: white;
 }
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+a:hover {
+  color: #f5cb5c
+}
+
 li{
   margin-top: 4%;
   margin-bottom: 4%;
 }
+
+#support-container {
+  color: white;
+}
+
+
 .business-header {
   text-align: center;
   font-size: 105px;
-  color: black;
+  color: #f5cb5c;
+  text-shadow: 2px 2px 2px #000000;
 }
 // styling for supports#show
 .business-category {
   text-align: center;
   font-size: 50px;
   font-weight: bolder;
-  color: black;
+  color: #f5cb5c;
+  text-shadow: 2px 2px 2px #000000;
 }
 // mutual styling in supports#index & #show
 .no-bullet{
@@ -214,9 +232,11 @@ li{
 }
 
 
+//styling for donations page
+
+
 img.demo {
   opacity: 0.6;
-
 }
 
 .active,
@@ -230,6 +250,51 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-img-container {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  border-radius: 10px;
+}
+
+.flex-item {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 10px;
+  background-color: #f5cb5c;
+  min-height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.flex-item:hover .flex-img {
+  opacity: 0.7;
+}
+
+.flex-img {
+  min-width: 280px;
+  min-height: 280px;
+  max-width: 280px;
+  max-height: 280px;
+  align-self: center;
+  border-radius: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#donation-header{
+  color: white;
+  font-size: 65px;
+}
+.donation-text {
+  text-align: center;
+  color: black;
+  padding: 8px;
 }
 
 

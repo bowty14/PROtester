@@ -23,8 +23,10 @@
 body {
   background-color: lightskyblue;
   font-family:'bebas neue',serif;
+  text-decoration: none;
 }
 .topnav {
+  font-family:'bebas neue',serif;
   overflow: hidden;
   background-color: #333;
   position: relative;
@@ -38,10 +40,12 @@ body {
   height:100px;
 }
 .topnav #myLinks {
+  font-family:'bebas neue',serif;
   display: none;
   text-align: center;
 }
 .topnav a {
+  font-family:'bebas neue',serif;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -57,7 +61,7 @@ body {
 }
  .link_tab:hover {
   background-color: #ddd;
-  color: black;
+  // color: black;
 }
 #footer{
   position:fixed;
@@ -95,6 +99,7 @@ body {
 // styling for tools#index
 .toolkit{
   background-color:#4F5D75;
+  font-family:'bebas neue',serif;
 }
 #tools{
   background-color: rgb(225, 225, 225);
@@ -103,13 +108,13 @@ body {
 #tools_head{
   text-align: right;
   font-weight:bold;
-  padding-right: 20%;
+  padding-right: 10%;
   padding-top:10px;
   font-size: 70px;
 } 
 #toolkit_head {
   font-size: 40%;
-  margin-right: 6%;
+  margin-right: 5%;
   font-weight: lighter;
 }
 .container2{
@@ -121,10 +126,9 @@ body {
 }
 .sign{
   margin-left:100px;
-  margin-top:60%;
+  margin-top:70%;
   color:whitesmoke;
 }
-
 .item, .image{
   overflow: hidden;
   object-fit: contain;
@@ -132,22 +136,23 @@ body {
   height:500px;
 }
 #list_row {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  margin-top: -35.4%;
-  margin-left: 2%;
-  height: 40%;
-
+  display: inline-block;
+  width: 80%;
+  margin-top: -180%;
+  margin-left: -50%;
+  height: 60%;
 }
 .chant{
   margin-left:100px;
   color:white;
+  font-family:'bebas neue',serif;
 }
 .container3{
-  display: flex;
+  display: inline-block;
   flex-direction: column;
+  margin-left: 0%;
   margin-top: -15%;
+
 }
 .video{
   margin-bottom:20px;
@@ -243,12 +248,13 @@ img.hover-shadow {
 // styling for tools#index
 #tools_head{
   text-align: left;
-  padding-right: 20%;
+  padding-left:30px;
+  padding-right: 15%;
   padding-top:10px;
   font-size: 50px;
 } 
 #toolkit_head {
-  margin-left: 25%;
+  margin-left: 16%;
 }
 .container2{
   margin-top: -28%;

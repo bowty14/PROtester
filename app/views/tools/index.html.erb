@@ -2,19 +2,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
-
-
-<body class= "toolkit">
-
-
-  
-
+  <h1 class="business-header">Activist<br>Toolkit </h1>
 
 
   <%# <-------------------------------Image Carousel --------------------------------------------> %>
-  <div class="container2">
-   <h2 class ="sign">Sign Examples</h2>
-    <div id="myCarousel" class="carousel slide" style="width:75%; height: 80%; padding-left:5px; background:none;">
+ 
+    <div class="container2">  
+      <div class="sign1"><h2 >Signs</h2></div>
+    <div id="myCarousel" class="carousel slide" style="width:75%; height: 90%; background:none;">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li class="item1 active"></li>
@@ -70,9 +65,19 @@
       </a>
     </div>
   </div>
+
+  <%# <------------------------------------Infographics---------------------------------------------------------> %>
+  <div class="container4">
+<img src="infographics/protest_do.png" alt="" class="whatToDo">
+ </div>
+ <div class="container5">
+ <img src="infographics/protest_before.png" alt="" class="protestBefore">
+ </div>
+
   <br>
   <br>
   <br>
+  <%# <------------------------------------------------------Videos------------------------------------------------------------> %>
   <div class="container3">
     <h2 class ="chant">Chants!</h2>
     <iframe width="400" height="200" src="https://www.youtube.com/embed/oVg7zXyugLA" frameborder="0" class="video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -106,13 +111,13 @@ $(document).ready(function(){
     $("#myCarousel").carousel(3);
   });
   $(".item5").click(function(){
-    $("#myCarousel").carousel(3);
+    $("#myCarousel").carousel(4);
   });
   $(".item6").click(function(){
-    $("#myCarousel").carousel(3);
+    $("#myCarousel").carousel(5);
   });
   $(".item7").click(function(){
-    $("#myCarousel").carousel(3);
+    $("#myCarousel").carousel(6);
   });
     
   // Enable Carousel Controls
@@ -124,8 +129,3 @@ $(document).ready(function(){
   });
 });
 </script>
-
-
-
-</body>
-

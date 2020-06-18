@@ -19,7 +19,20 @@ As a user I want to see a list of organizations that are active in the current p
 
 As a user I want to see a list of BIPOC owned businesses that I can support.
 
+## Page Layout
 
+![Page Layout](./public/README/home.png)
+![Page Layout](./public/README/desktop.png)
+![Page Layout](./public/README/mobile.png)
+![Page Layout](./public/README/support.png)
+![Page Layout](./public/README/support2.png)
+
+
+## Componet Diagram
+![Page Layout](./public/README/componet.png)
+
+## Color Scheme
+![Page Layout](./public/README/color.png)
 
 ## Setup/Installation Requirements
 

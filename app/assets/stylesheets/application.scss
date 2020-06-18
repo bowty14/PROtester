@@ -101,67 +101,67 @@ body {
   -moz-transform: translate(0,-50px);
 }
 // styling for tools#index
-#tools{
-  background-color: rgb(225, 225, 225);
-  height:200px;
-}
-#tools_head{
-  text-align: right;
-  font-weight:bold;
-  padding-right: 10%;
-  padding-top:10px;
-  font-size: 70px;
-} 
-#toolkit_head {
-  font-size: 40%;
-  margin-right: 5%;
-  font-weight: lighter;
-}
-.container2{
-  margin-top: -15%;
-  margin-left:42%;
-  margin-bottom:0%;
-  width:500px;
-  height:200px;
-}
-.item, .image{   
-  overflow: hidden;
-  object-fit: contain;
-  width:400px;
-  height:300px;
-}
-.container4{
-  margin-left: 40%;
-  margin-top:5%;
-  margin-bottom:15%;
-}
-.whatToDo { 
-  height: 600px;
-  width: 200px;
-}
-.container5{
-  margin-left: 53%;
-  margin-top:-41.7%;
-  margin-bottom:15%;
+// #tools{
+//   background-color: rgb(225, 225, 225);
+//   height:200px;
+// }
+// #tools_head{
+//   text-align: right;
+//   font-weight:bold;
+//   padding-right: 10%;
+//   padding-top:10px;
+//   font-size: 70px;
+// } 
+// #toolkit_head {
+//   font-size: 40%;
+//   margin-right: 5%;
+//   font-weight: lighter;
+// }
+// .container2{
+//   margin-top: -15%;
+//   margin-left:42%;
+//   margin-bottom:0%;
+//   width:500px;
+//   height:200px;
+// }
+// .item, .image{   
+//   overflow: hidden;
+//   object-fit: contain;
+//   width:400px;
+//   height:300px;
+// }
+// .container4{
+//   margin-left: 40%;
+//   margin-top:5%;
+//   margin-bottom:15%;
+// }
+// .whatToDo { 
+//   height: 600px;
+//   width: 200px;
+// }
+// .container5{
+//   margin-left: 53%;
+//   margin-top:-41.7%;
+//   margin-bottom:15%;
  
-}
-.protestBefore{
-  width:200px;
-  height:600px;
-}
+// }
+// .protestBefore{
+//   width:200px;
+//   height:600px;
+// }
 .sign1{
-  margin-left:140px;
-  margin-top:70%;
-  color:whitesmoke;
-}
+  text-shadow: 2px 2px 2px #000000;
+  color:#f5cb5c;
+  text-align: center;
+ }
 
-#list_row {
-  display: inline-block;
-  width: 80%;
-  margin-top: -180%;
-  margin-left: -50%;
-  height: 60%;
-}
+// #list_row {
+//   display: inline-block;
+//   width: 80%;
+//   margin-top: -180%;
+//   margin-left: -50%;
+//   height: 60%;
+// }
 .chant{
   text-align: center;
   color:#f5cb5c;
@@ -171,32 +171,41 @@ body {
 }
 .container3{
   display: flex;
-  text-align: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 5%;
-  justify-content: space-around;
-}
+   text-align: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ #signs-flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ #signs-flex img {
+   width: 300px;
+   height: 200px;
+   margin: 2%;
+ }
 
 .video{
-  margin-bottom:20px;
-  padding-left:10px;
+  margin: 2%;
   width:300px;
   height:200px;
 }
 
 
-.col-sm-3 {
-  position: absolute;
-  top: -260%;
-  left: 120%;
-  margin: 1%;
-  flex-basis: auto;
-  font-weight: bold;
-  background-color: rgb(225, 225, 225);
-  color: black;
-  height: 40%;
-}
+// .col-sm-3 {
+//   position: absolute;
+//   top: -260%;
+//   left: 120%;
+//   margin: 1%;
+//   flex-basis: auto;
+//   font-weight: bold;
+//   background-color: rgb(225, 225, 225);
+//   color: black;
+//   height: 40%;
 // styling for supports#index
 
 .mapsApi{
@@ -275,6 +284,10 @@ li{
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+}
+
+.flex-info-thumb {
+  margin-top: 4%;
 }
 
 // /* Create four equal columns that floats next to eachother */
@@ -469,10 +482,7 @@ img.hover-shadow {
 #toolkit_head {
   margin-left: 5%;
 }
-.sign1{
-  color:whitesmoke;
-  margin-right: 58%;
-}
+
 .container2{
   margin-top: -28%;
   margin-left:20%;
@@ -505,10 +515,10 @@ img.hover-shadow {
 .container3{
   display: flex;
   flex-direction: column;
-  margin-top: 0%;
-  margin-left:19%;
-  width: 80%;
-  margin-bottom: 7%;
+  align-content: center;
+  // margin-top: 0%;
+  // width: 80%;
+  // margin-bottom: 7%;
 }
 .item, .image{
   overflow: hidden;
